@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Alfa+Slab+One';
+@import 'https://fonts.googleapis.com/css?family=Russo+One';
+
+h1{
+  font-family: 'Alfa Slab One', cursive;
+}
+h2 {
+  font-family: 'Alfa Slab One', cursive;
+}
+h3{
+  font-family: 'Russo One', sans-serif;
+}
+img {
+  border: 2px solid black;
+  max-width: 200px;
+  height: auto;
+  position: auto;
+  text-align: center;
+}
+a:default{
+  color: blue;
+}
+a:visited{
+  color: purple;
+}
+a:hover{
+  color: green;
+}
+a:active {
+  color: red;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2px;
+}
+#wrapper {
+  max-width: 960px;
+  margin: auto;
+}
